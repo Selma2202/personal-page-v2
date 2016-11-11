@@ -17,26 +17,28 @@
 }
 
 /*Portfolio Item*/
-.portfolioItem a { position: relative; display: inline-block }
+.portfolioItem a { 
+    position: relative; 
+    display: inline-block }
 
 .portfolioItem a img {
     width: 100%;
 }
 
-.portfolioItem a h2 {
+.portfolioItem a div {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: 0;
-    background: black;
-    opacity: 80%;
-    color: #fff;
+    background: white;
+    /*opacity: 30%;*/
+    color: black;
     opacity:0;
-    transition:1s;
+    transition:1.5s;
 }
 
-.portfolioItem a:hover h2 {
-    opacity:5;
+.portfolioItem a:hover div {
+    opacity:0.75;
 }
